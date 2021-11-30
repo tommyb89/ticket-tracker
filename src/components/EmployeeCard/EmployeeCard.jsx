@@ -1,6 +1,6 @@
 import React from "react";
 import "./EmployeeCard.scss";
-// import Counter from "../Counter/Counter";
+import Counter from "../Counter/Counter";
 
 const EmployeeCard = (props) => {
   const { name, role } = props;
@@ -9,6 +9,7 @@ const EmployeeCard = (props) => {
     <article className="employee">
       <h3 className="employee__name">{name}</h3>
       <p className="employee__role">{role}</p>
+      <Counter />
     </article>
   );
 };
