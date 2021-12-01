@@ -9,15 +9,7 @@ function App() {
         <h1 className="header__title">Ticket Tracker</h1>
       </header>
       <section className="employees">
-        {team.map((employee) => {
-          return (
-            <EmployeeCard
-              key={employee.id}
-              name={employee.name}
-              role={employee.role}
-            />
-          );
-        })}
+        <EmployeeCard employeeArr={team} />;
       </section>
     </div>
   );

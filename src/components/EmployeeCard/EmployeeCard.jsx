@@ -3,15 +3,20 @@ import "./EmployeeCard.scss";
 import Counter from "../Counter/Counter";
 
 const EmployeeCard = (props) => {
-  const { name, role } = props;
+  const { employeeArr } = props;
+  console.log(employeeArr);
 
-  return (
-    <article className="employee">
-      <h3 className="employee__name">{name}</h3>
-      <p className="employee__role">{role}</p>
-      <Counter />
-    </article>
-  );
+  const EmployeeCards = employeeArr.map((employee) => {
+    return (
+      <article className="employee">
+        <h3 className="employee__name">{employee.name}</h3>
+        <p className="employee__role">{employee.role}</p>
+        <Counter />
+      </article>
+    );
+  });
+
+  return <>{EmployeeCards}</>;
 };
 
 export default EmployeeCard;
