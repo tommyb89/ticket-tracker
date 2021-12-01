@@ -28,7 +28,7 @@ body {
   .employees {
     margin-top: 50px;
     display: grid;
-    margin: 40px;
+    // margin: 40px;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
   }
