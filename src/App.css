@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+.app {
+  background: url("https://dl.dropbox.com/s/mpmu0gjtxv2x3fs/Webp.net-resizeimage%20%281%29.jpg?raw=1") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+}
+.app .header {
+  text-align: center;
+  padding-top: 50px;
+}
+.app .header__title {
+  font-size: 48px;
+  margin: 0;
+  color: white;
+}
+.app .employees {
+  margin-top: 50px;
+  display: grid;
+  margin: 40px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .app .employees {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 50px;
+  }
+}
