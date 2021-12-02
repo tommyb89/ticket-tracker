@@ -2,7 +2,7 @@
 
 
 ## About
-Here's a litte fun app made purely with ReactJS
+Here's a litte fun app made purely with ReactJS. <br>
 This app allows the user to increment and decrement number using state.
 
 ### Tech I used
