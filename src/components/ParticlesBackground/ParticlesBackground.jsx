@@ -21,8 +21,8 @@ const ParticlesBackground = () => {
           shape: {
             type: "circle",
             stroke: {
-              width: 4,
-              color: "#FF449F",
+              width: 7,
+              color: "#a72d68",
             },
             polygon: {
               nb_sides: 5,
@@ -58,7 +58,7 @@ const ParticlesBackground = () => {
             distance: 150,
             color: "#FFF5B7",
             opacity: 0.4,
-            width: 1,
+            width: 1.2,
           },
           move: {
             enable: true,
@@ -79,12 +79,12 @@ const ParticlesBackground = () => {
           detect_on: "window",
           events: {
             onhover: {
-              enable: false,
-              mode: "repulse",
+              enable: true,
+              mode: "bubble",
             },
             onclick: {
               enable: true,
-              mode: "repulse",
+              mode: "bubble",
             },
             resize: true,
           },
@@ -96,8 +96,8 @@ const ParticlesBackground = () => {
               },
             },
             bubble: {
-              distance: 400,
-              size: 40,
+              distance: 250,
+              size: 30,
               duration: 2,
               opacity: 8,
               speed: 3,

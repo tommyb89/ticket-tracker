@@ -7,16 +7,17 @@
 }
 
 body {
-  background: #005f99;
+  background: #020216;
   background-size: cover;
 }
 
 .app {
+  max-width: 100%;
   // Employees Section
   .employees-tickets {
     margin-top: 50px;
     display: grid;
-    margin: 40px;
+    // margin: 40px;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
   }

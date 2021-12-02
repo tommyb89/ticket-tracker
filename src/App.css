@@ -7,15 +7,18 @@
 }
 
 body {
-  background: #005f99;
+  background: #020216;
   background-size: cover;
+}
+
+.app {
+  max-width: 100%;
 }
 
 .app .employees-tickets {
   margin-top: 50px;
   display: -ms-grid;
   display: grid;
-  margin: 40px;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;

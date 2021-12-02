@@ -1,8 +1,8 @@
 .card {
-  background-color: rgba(44, 44, 44, 0.582);
+  background-color: rgba(50, 54, 63, 0.753);
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
-  width: 180px;
+  width: 170px;
   padding: 10px;
   text-align: center;
   margin: 0 auto;
@@ -37,6 +37,6 @@
   margin: 10px;
   font-style: italic;
   font-size: 12px;
-  color: #c2e0a6f6;
+  color: #c0c0bff6;
 }
 /*# sourceMappingURL=Card.css.map */

@@ -4,7 +4,7 @@
   border-radius: 10px;
   padding: 5px;
   background-color: rgba(99, 206, 206, 0.281);
-  color: #08ddc8;
+  color: #55d6c9cc;
 
   &__name {
     font-size: 24px;
@@ -15,13 +15,13 @@
   }
 
   .far {
-    font-size: 16px;
+    font-size: 20px;
     padding: 10px;
     cursor: pointer;
-    color: #00ead3;
+    color: #fefff7b2;
 
     &:hover {
-      color: #fff5b7;
+      color: #ffffffec;
     }
   }
 }
