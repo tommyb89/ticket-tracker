@@ -1,15 +1,14 @@
 import "./App.scss";
 import team from "./data/team";
-import EmployeeCard from "./components/EmployeeCard/EmployeeCard";
+import EmployeesCards from "./components/EmployeesCards/EmployeesCards";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <div className="app">
-      <header className="header">
-        <h1 className="header__title">Ticket Tracker</h1>
-      </header>
-      <section className="employees">
-        <EmployeeCard employeeArr={team} />;
+      <Header />
+      <section className="employees-tickets">
+        <EmployeesCards employeesArr={team} />;
       </section>
     </div>
   );

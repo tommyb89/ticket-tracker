@@ -1,10 +1,9 @@
-.employee {
+.card {
   background-color: rgba(255, 255, 255, 0.089);
   -webkit-backdrop-filter: blur(30px);
   backdrop-filter: blur(30px);
-  min-height: 200px;
-  max-width: 150px;
-  padding: 5px;
+  width: 180px;
+  padding: 10px;
   text-align: center;
   margin: 0 auto;
   border-radius: 15px;
@@ -12,6 +11,10 @@
   box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.3);
   color: #ffffffed;
   transition: 0.3s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
   &:hover {
     box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.5);
@@ -25,5 +28,6 @@
   &__role {
     font-style: italic;
     opacity: 0.8;
+    padding: 5px;
   }
 }

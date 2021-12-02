@@ -3,20 +3,23 @@
   margin: 10px;
   border-radius: 15px;
   padding: 5px;
+  background-color: rgba(216, 216, 216, 0.404);
+  color: rgba(0, 0, 0, 0.691);
 
   &__name {
+    font-size: 24px;
   }
   &__num {
   }
 
   .far {
     font-size: 16px;
-    margin: 10px;
+    padding: 10px;
     cursor: pointer;
-    color: rgba(255, 255, 255, 0.746);
+    color: rgba(0, 0, 0, 0.746);
 
     &:hover {
-      color: rgba(132, 148, 167, 0.342);
+      color: rgba(54, 93, 139, 0.342);
     }
   }
 }

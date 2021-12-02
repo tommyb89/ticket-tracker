@@ -13,19 +13,8 @@ body {
 }
 
 .app {
-  .header {
-    text-align: center;
-    padding-top: 50px;
-
-    &__title {
-      font-size: 48px;
-      margin: 0;
-      color: white;
-    }
-  }
-
   // Employees Section
-  .employees {
+  .employees-tickets {
     margin-top: 50px;
     display: grid;
     // margin: 40px;
@@ -36,7 +25,7 @@ body {
 
 @media screen and (min-width: 992px) {
   .app {
-    .employees {
+    .employees-tickets {
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       grid-gap: 50px;
     }

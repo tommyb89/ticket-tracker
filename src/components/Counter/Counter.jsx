@@ -6,8 +6,8 @@ const Counter = () => {
     <div className="counter">
       <h3 className="counter__name">Counter</h3>
       <p className="counter__num">0</p>
-      <i class="far fa-minus-square"></i>
-      <i class="far fa-plus-square"></i>
+      <i className="far fa-minus-square"></i>
+      <i className="far fa-plus-square"></i>
     </div>
   );
 };
