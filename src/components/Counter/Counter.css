@@ -1,0 +1,28 @@
+.counter {
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgba(99, 206, 206, 0.281);
+  color: #08ddc8;
+}
+
+.counter__name {
+  font-size: 24px;
+}
+
+.counter__num {
+  padding: 5px;
+  color: #f1f0ea;
+}
+
+.counter .far {
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  color: #00ead3;
+}
+
+.counter .far:hover {
+  color: #fff5b7;
+}
+/*# sourceMappingURL=Counter.css.map */

@@ -7,8 +7,7 @@
 }
 
 body {
-  background: url("https://dl.dropbox.com/s/mpmu0gjtxv2x3fs/Webp.net-resizeimage%20%281%29.jpg?raw=1")
-    repeat center center fixed;
+  background: #005f99;
   background-size: cover;
 }
 
@@ -17,7 +16,7 @@ body {
   .employees-tickets {
     margin-top: 50px;
     display: grid;
-    // margin: 40px;
+    margin: 40px;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
   }

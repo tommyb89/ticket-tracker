@@ -1,25 +1,27 @@
 .counter {
-  border: 2px solid rgba(255, 255, 255, 0.226);
+  // border: 2px dotted rgba(223, 223, 223, 0.582);
   margin: 10px;
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 5px;
-  background-color: rgba(216, 216, 216, 0.404);
-  color: rgba(0, 0, 0, 0.691);
+  background-color: rgba(99, 206, 206, 0.281);
+  color: #08ddc8;
 
   &__name {
     font-size: 24px;
   }
   &__num {
+    padding: 5px;
+    color: #f1f0ea;
   }
 
   .far {
     font-size: 16px;
     padding: 10px;
     cursor: pointer;
-    color: rgba(0, 0, 0, 0.746);
+    color: #00ead3;
 
     &:hover {
-      color: rgba(54, 93, 139, 0.342);
+      color: #fff5b7;
     }
   }
 }
