@@ -7,7 +7,7 @@ This app allows the user to increment and decrement each ticket number using sta
 ### Tech I used
 ReactJS, SASS, NPM
 
-#### Thoughts about the project
+### Thoughts about the project
 
 - It was great to learn how to descrtucture your website into reusable components
 - I challanged myself further and used npm package called react-tsparticles to create a dynamic background
