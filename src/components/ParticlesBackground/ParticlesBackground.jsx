@@ -9,20 +9,27 @@ const ParticlesBackground = () => {
       options={{
         particles: {
           number: {
-            value: 69,
+            value: 40,
             density: {
               enable: false,
-              value_area: 1527.2943578531062,
+              area: 800,
             },
           },
           color: {
-            value: "#00EAD3",
+            value: [
+              "#00EAD3",
+              "#BD10E0",
+              "#B8E986",
+              "#50E3C2",
+              "#FFD300",
+              "#E86363",
+            ],
           },
           shape: {
-            type: "circle",
+            type: ["circle"],
             stroke: {
-              width: 7,
-              color: "#a72d68",
+              width: 5,
+              color: ["#a72d68"],
             },
             polygon: {
               nb_sides: 5,
@@ -44,11 +51,11 @@ const ParticlesBackground = () => {
             },
           },
           size: {
-            value: 36.17276110704725,
-            random: true,
+            value: 31,
+            random: false,
             anim: {
               enable: false,
-              speed: 10,
+              speed: 8,
               size_min: 0.1,
               sync: false,
             },
