@@ -4,6 +4,8 @@
 Here's a litte fun app made purely with ReactJS and SASS. <br>
 This app allows the user to increment and decrement each ticket number using state.
 
+You can see it live  [HERE](https://tommyb89.github.io/ticket-tracker/)
+
 ### Tech I used
 ReactJS, SASS, NPM
 
