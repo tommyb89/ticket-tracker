@@ -10,10 +10,9 @@ You can see it live  [HERE](https://tommyb89.github.io/ticket-tracker/)
 ReactJS, SASS, NPM
 
 ### Thoughts about the project
-
 - It was great to learn how to descrtucture your website into reusable components
 - I challanged myself further and used npm package called react-tsparticles to create a dynamic background
 <br>you can find it here -> [Particles](https://particles.js.org/)
-- I would like to be able to count all the tickets counters as an Employer
+- I would like to be able to count all the tickets counters as an employer
 
 
