@@ -5,7 +5,7 @@ const CardsDisplay = (props) => {
   const { cardsArr } = props;
   return (
     <section className="display">
-      <DeckCard />
+      <DeckCard suit={cardsArr.suit} />
     </section>
   );
 };
