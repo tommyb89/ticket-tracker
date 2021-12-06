@@ -1,4 +1,4 @@
-# Ticket Tracker App ReactJS made by me
+# Ticket Tracker App made with ReactJS
 
 ## About
 Here's a litte fun app made purely with ReactJS and SASS. <br>
