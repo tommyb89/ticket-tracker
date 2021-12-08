@@ -5,14 +5,14 @@ import Header from "./components/Header/Header";
 import cardDeck from "./data/deck";
 import ParticlesBackground from "./components/ParticlesBackground/ParticlesBackground";
 import CardsDisplay from "./components/CardsDisplay/CardsDisplay";
-console.log(cardDeck);
+// console.log(cardDeck);
 // Background
 
 function App() {
   return (
     <div className="app">
       <ParticlesBackground />
-      <Header />
+      <Header title={"Ticket Tracker"} />
       <section className="employees-tickets">
         <EmployeesCards employeesArr={team} />;
       </section>
