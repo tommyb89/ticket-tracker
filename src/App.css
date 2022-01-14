@@ -1,9 +1,7 @@
-@use "./assets/sass/_variables.scss" as *;
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -14,21 +12,16 @@ body {
 .app {
   max-width: 100%;
 }
-
 .app .employees-tickets {
   margin-top: 50px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
 }
 
 @media screen and (min-width: 992px) {
   .app .employees-tickets {
-    -ms-grid-columns: (minmax(250px, 1fr))[auto-fill];
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 50px;
   }
 }
-/*# sourceMappingURL=App.css.map */
